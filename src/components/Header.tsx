@@ -14,7 +14,7 @@ const Header = () => {
   const handleSearch = async(e:FormEvent<HTMLFormElement>) =>{
     e.preventDefault();
     console.log("input");
-    router.replace('http://localhost:3000?loading=true');
+    router.replace('https://webscrapper-ten.vercel.app?loading=true');
     
     const input = inputRef.current?.value;
     if(!input) return;
